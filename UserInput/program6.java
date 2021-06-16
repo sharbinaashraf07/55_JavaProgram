@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class smallestno{
+public class smallest{
 public static void main(String args[]){
 int min, len, i;
 int arr[] = new int[200];
 Scanner sc = new Scanner(System.in);
 
-System.out.print("Enter nmbr of elements : ");
+System.out.print("Enter number of elements : ");
 len = sc.nextInt();
 
 System.out.print("Enter the limit: ");
